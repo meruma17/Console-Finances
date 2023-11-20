@@ -89,3 +89,13 @@ var finances = [
 
 // the total number of moths included in the dataset
 console.log("there are " + finances.length + " months in the dataset");
+
+
+// the net total amount of profit and losses over the entire period
+var totalAmount = 0
+
+for(var i = 0; i < finances.length; i++){
+  totalAmount += finances[i][1]
+}
+
+console.log('The net amount is : ' + totalAmount + ' $');
