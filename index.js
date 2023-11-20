@@ -111,3 +111,18 @@ for(var i=1; i < finances.length; i++){
   var previousMonth = finances[i-1][1];
 }
 
+// greatest increase in profit/losses over the entire time
+
+var greatIncrease = 0
+
+greatIncrease = Math.max(finances[0][1]);
+
+console.log(greatIncrease);
+
+// greated decrease in profit/losses over the entire time 
+
+var greatDecrease = 0
+
+greatDecrease = Math.min(finances[0][1]);
+
+console.log(greatDecrease);
