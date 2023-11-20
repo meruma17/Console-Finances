@@ -99,3 +99,15 @@ for(var i = 0; i < finances.length; i++){
 }
 
 console.log('The net amount is : ' + totalAmount + ' $');
+
+
+
+// changes in profit/losses
+
+var change = 0
+
+for(var i=1; i < finances.length; i++){
+  var currentMonth = finances[i][1];
+  var previousMonth = finances[i-1][1];
+}
+
